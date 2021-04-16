@@ -8,4 +8,10 @@ use Illuminate\Database\Eloquent\Model;
 class Car extends Model
 {
     use HasFactory;
+
+
+    public static function numDoors(){
+
+        return self::where('number_of_doors','=','4');
+    }
 }

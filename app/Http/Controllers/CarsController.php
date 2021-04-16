@@ -18,4 +18,11 @@ class CarsController extends Controller
         $car = Car::find($id);
         return view('car',compact('car'));
     }
+
+
+    public function doors(){
+        $cars = Car::numDoors()->get();
+
+        return view('doors',compact('cars'));
+    }
 }
