@@ -18,6 +18,7 @@ About
   <div class="navbar justify-content-end">
     <a class="nav-item nav-link" href="/cars">Cars</a>
     <a class="nav-item nav-link" href="/about">About us</a>
+    <a class="nav-item nav-link" href="/doors">4 Doors</a>
    
   </div>
 </nav>
