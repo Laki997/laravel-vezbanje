@@ -22,7 +22,7 @@ Route::get('/', function () {
 });
 
 Route::get('/about',function(){
-    echo 'About us';
+    return view('about');
 });
 
 Route::get('/cars',[CarsController::class,'index']);
